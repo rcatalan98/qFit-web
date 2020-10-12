@@ -61,7 +61,7 @@
                                           <v-row>
                                             <v-col cols="12">
                                               <v-text-field
-                                                  label="Usuario*"
+                                                  label="Usuario *"
                                                   required
                                                   filled
                                                   rounded
@@ -70,7 +70,7 @@
                                             </v-col>
                                             <v-col cols="12">
                                               <v-text-field
-                                                  label="Email*"
+                                                  label="Email *"
                                                   required
                                               ></v-text-field>
                                             </v-col>
@@ -80,7 +80,7 @@
                                               :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
                                               :type="show1 ? 'text' : 'password'"
                                               name="input-10-1"
-                                              label="Contraseña*"
+                                              label="Contraseña *"
                                               hint="Mínimo 8 caracteres"
                                               counter
                                               @click:append="show1 = !show1"

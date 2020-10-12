@@ -80,7 +80,7 @@
                                               :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
                                               :type="show1 ? 'text' : 'password'"
                                               name="input-10-1"
-                                              label="Contraseña"
+                                              label="Contraseña*"
                                               hint="Mínimo 8 caracteres"
                                               counter
                                               @click:append="show1 = !show1"
